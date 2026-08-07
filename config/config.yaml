@@ -1,0 +1,8 @@
+website:
+  url: "https://www.tpl.ca"
+
+browser:
+  headless: false
+
+test:
+  search_keyword : "Harry Potter"
