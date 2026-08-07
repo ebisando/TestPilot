@@ -1,15 +1,19 @@
 from pages.home_page import HomePage
 from pages.search_results_page import SearchResultsPage
+from core.utils import load_config
 import os
 
 
 def run(driver):
 
+    config = load_config()
+    keyword = config["test"]["search_keyword"]
+
     print("\n========== Search Test ==========")
 
     homepage = HomePage(driver)
 
-    homepage.search("Harry Potter")
+    homepage.search(keyword)
 
     results_page = SearchResultsPage(driver)
 
@@ -20,9 +24,9 @@ def run(driver):
     assert len(results) > 0, "No books found!"
 
     assert any(
-        "Harry Potter" in result.text
+        keyword in result.text
         for result in results
-    ), "Harry Potter not found!"
+    ), f"{keyword} not found!"
 
     print(results[0].text)
 
