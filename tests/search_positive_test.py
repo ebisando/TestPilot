@@ -8,13 +8,10 @@ import os
 def run(driver):
 
     keyword = config["test"]["search_keyword"]
-    print("Step 1 - Create HomePage")
 
     homepage = HomePage(driver)
-    print("Step 2 - Search")
 
     homepage.search(keyword)
-    print("Step 3 - Create SearchResultsPage")
 
     results_page = SearchResultsPage(driver)
     results = results_page.get_results()
@@ -28,10 +25,7 @@ def run(driver):
         print("✅ Proper error message displayed.")
         return
 
-    print("Step 4 - Get Results")
-
     results = results_page.get_results()
-    print("Step 5 - Results Loaded")
 
     print(f"Found {len(results)} books.")
     print("----------------")

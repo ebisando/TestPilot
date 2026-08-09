@@ -76,4 +76,7 @@ class TestRunner:
 
         logger.info("===== TestPilot Finished =====")
         logger.info(f"Execution Time : {end-start:.2f} sec")
-        logger.info(f"Test Results: {self.results}")
+        logger.info("========== Summary ==========")
+        for name, status in self.results:
+
+            logger.info(f"{name:<25} {status}")
