@@ -1,3 +1,4 @@
+from core.logger import logger
 from pages.home_page import HomePage
 from pages.search_results_page import SearchResultsPage
 from core.config import config
@@ -16,13 +17,13 @@ def run(driver):
     results_page = SearchResultsPage(driver)
     results = results_page.get_results()
     if results:
-        print(f"Found {len(results)} books.")
+        logger.info(f"Found {len(results)} books.")
     else:
         message = results_page.get_no_results_message()
-        print(message)
+        logger.info(message)
         assert "Nothing found for" in message
         assert keyword in message
-        print("✅ Proper error message displayed.")
+        logger.info("✅ Proper error message displayed.")
         return
 
     results = results_page.get_results()

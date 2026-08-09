@@ -42,14 +42,21 @@ class TestRunner:
                 test(self.driver)
 
                 logger.info(f"✅ {test_name} PASSED")
-                self.results.append((test_name, "PASSED"))
+                self.results.append({
+                    "name": test_name,
+                    "status": "PASSED",
+                    "error": None
+                })
 
             except Exception as e:
 
                 logger.error(f"❌ {test_name} FAILED")
                 traceback.print_exc()
-                self.results.append((test_name, "FAILED", str(e)))
-
+                self.results.append({
+                    "name": test_name,
+                    "status": "FAILED",
+                    "error": str(e)
+                })
 
     def teardown(self):
 
@@ -77,6 +84,13 @@ class TestRunner:
         logger.info("===== TestPilot Finished =====")
         logger.info(f"Execution Time : {end-start:.2f} sec")
         logger.info("========== Summary ==========")
-        for name, status in self.results:
+        for result in self.results:
 
-            logger.info(f"{name:<25} {status}")
+            if result["error"]:
+                logger.info(
+                    f"{result['name']:<25} {result['status']} ({result['error']})"
+                )
+            else:
+                logger.info(
+                    f"{result['name']:<25} {result['status']}"
+                )
