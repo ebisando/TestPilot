@@ -2,8 +2,6 @@ import os
 
 def run(driver):
 
-    print("\n========== Homepage Test ==========")
-
     print("Current URL:")
     print(driver.current_url)
 
