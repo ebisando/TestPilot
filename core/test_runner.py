@@ -5,11 +5,12 @@ from core.config import config
 
 from tests.homepage_test import run as homepage_test
 from tests.search_positive_test import run as search_test
+from tests.broken_link_test import run as broken_link_test
 
 from core.logger import logger
 import core.test_result
 from core.report import ReportGenerator
-
+from tests.accessibility_test import run as accessibility_test
 
 class TestRunner:
 
@@ -19,7 +20,9 @@ class TestRunner:
 
         self.tests = [
             ("Homepage Test", homepage_test),
-            ("Search Test", search_test)
+            ("Search Test", search_test),
+            ("Broken Link Test", broken_link_test),
+            ("Accessibility Test", accessibility_test)
         ]
         self.results = []
 

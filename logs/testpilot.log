@@ -1,15 +1,138 @@
-2026-08-10 10:08:46,976 | INFO | ===== TestPilot Started =====
-2026-08-10 10:08:48,920 | INFO | ===== Homepage Test =====
-2026-08-10 10:08:52,572 | INFO | Current URL: https://tpl.ca/
-2026-08-10 10:08:52,580 | INFO | Page Title: Toronto Public Library
-2026-08-10 10:08:53,305 | INFO | ✅ Homepage screenshot saved.
-2026-08-10 10:08:53,305 | INFO | ✅ Homepage Test PASSED
-2026-08-10 10:08:53,306 | INFO | ===== Search Test =====
-2026-08-10 10:08:55,285 | INFO | Nothing found for ㅌㅌㅌㅌㅌㅌㅌ.
-2026-08-10 10:08:55,286 | INFO | ✅ Proper error message displayed.
-2026-08-10 10:08:55,286 | INFO | ✅ Search Test PASSED
-2026-08-10 10:08:55,528 | INFO | ===== TestPilot Finished =====
-2026-08-10 10:08:55,528 | INFO | Execution Time : 8.55 sec
-2026-08-10 10:08:55,528 | INFO | ========== Summary ==========
-2026-08-10 10:08:55,528 | INFO | Homepage Test             PASSED
-2026-08-10 10:08:55,528 | INFO | Search Test               PASSED
+2026-08-10 14:56:37,223 | INFO | ===== TestPilot Started =====
+2026-08-10 14:56:41,058 | INFO | ===== Homepage Test =====
+2026-08-10 14:56:41,063 | INFO | Current URL: https://tpl.ca/
+2026-08-10 14:56:41,068 | INFO | Page Title: Toronto Public Library
+2026-08-10 14:56:41,733 | INFO | ✅ Homepage screenshot saved.
+2026-08-10 14:56:41,733 | INFO | ✅ Homepage Test PASSED
+2026-08-10 14:56:41,733 | INFO | ===== Search Test =====
+2026-08-10 14:56:43,527 | INFO | Nothing found for ㅌㅌㅌㅌㅌㅌㅌ.
+2026-08-10 14:56:43,527 | INFO | ✅ Proper error message displayed.
+2026-08-10 14:56:43,527 | INFO | ✅ Search Test PASSED
+2026-08-10 14:56:43,527 | INFO | ===== Broken Link Test =====
+2026-08-10 14:56:43,528 | INFO | ========== Broken Link Test ==========
+2026-08-10 14:56:43,545 | INFO | Found 212 links.
+2026-08-10 14:56:44,069 | INFO | Checking 162 unique URLs...
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#header_main_nav
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#desktop_search_form
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#mobile_search_form
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#content
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=fr-CA
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=es-ES
+2026-08-10 14:56:44,069 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=ru-RU
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=zh-CN
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=zh-TW
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=ja-JP
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=fil-PH
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=vi-VN
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/switch_language?external=true&selected_language=ko-KR
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#language-switcher-overlay
+2026-08-10 14:56:44,070 | INFO | Skipping external URL: https://tpl.bibliocommons.com/locations
+2026-08-10 14:56:44,805 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?_gl=1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart#
+2026-08-10 14:56:48,136 | INFO | Skipping external URL: https://help.bibliocommons.com/hc/en-us
+2026-08-10 14:56:48,136 | INFO | Skipping external URL: https://tpl.bibliocms.com/faqs/
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/user/login?destination=https%3A%2F%2Ftpl.bibliocommons.com%2Fv2%2Fsearch%3F_gl%3D1*t4hovk*_ga*OTIzMTA3NDYyLjE3ODYzODgyMDA.*_ga_G99DMMNG39*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw*_ga_VGX2640F9T*czE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw%26query%3D%25E3%2585%258C%25E3%2585%258C%25E3%2585%258C%25E3%2585%258C%25E3%2585%258C%25E3%2585%258C%25E3%2585%258C%26searchType%3Dsmart
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/dashboard/user_dashboard
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/checkedout
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/holds
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/recentlyreturned
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/fines
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/interlibraryloans
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/collection/show/my/library/for_later
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/collection/show/my/library/completed
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/collection/show/my/library/in_progress
+2026-08-10 14:56:48,232 | INFO | Skipping external URL: https://tpl.bibliocommons.com/lists/show/mine
+2026-08-10 14:56:49,179 | INFO | Skipping external URL: http://tpl.bibliocommons.com/v2/events/account
+2026-08-10 14:56:49,179 | INFO | Skipping external URL: https://tpl.bibliocommons.com/user_profile/me
+2026-08-10 14:56:49,179 | INFO | Skipping external URL: https://tpl.bibliocommons.com/account
+2026-08-10 14:56:49,283 | INFO | Skipping external URL: https://tpl.bibliocommons.com/user/saved_searches
+2026-08-10 14:56:49,283 | INFO | Skipping external URL: https://tpl.bibliocommons.com/search
+2026-08-10 14:56:52,989 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=false&query=isolanguage%3A%22eng%22%20audience%3A%22adult%22%20formatcode%3A(GRAPHIC_NOVEL%20)&searchType=bl&suppress=true&sort=newly_acquired&title=New%20Graphic%20Books&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC
+2026-08-10 14:56:53,100 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=isolanguage%3A%22eng%22%20audience%3A%22adult%22%20formatcode%3A(LPRINT%20)%20oo%3A%22false%22&searchType=bl&suppress=true&sort=newly_acquired&f_NEWLY_ACQUIRED=PAST_180_DAYS&title=New%20Large%20Print&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=-genre%3A(romance%20fiction)%20-genre%3A(fantasy)%20-genre%3A(science%20fiction)%20-genre%3A(mystery)%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22FICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&sort=newly_acquired&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&title=New%20Fiction&_gl=1*1hvww1u*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=subject%3A(Detective%20and%20mystery%20fiction.)%20%20%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20Mysteries&_gl=1*1hvww1u*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=subject%3A(%22Romance%20fiction%22)%20%20%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20Romance
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=(subject%3A(%22Fantasy%20fiction%22)%20OR%20subject%3A(%22Science%20fiction%22)%20)%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&page=1&title=New%20Science%20Fiction%20and%20Fantasy&_gl=1*1hvww1u*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22NONFICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&sort=newly_acquired&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&title=New%20Nonfiction&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=subject%3A(biography)%20%20%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22NONFICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20Biographies&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=%20(ca%3A%5B641%20TO%20642.999999%5D)%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22NONFICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20in%20Food%20and%20Drink&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=%20(ca%3A%5B610%20TO%20618.999999%5D%20OR%20ca%3A%5B150%20TO%20159.999999%5D)%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22NONFICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20in%20Health%20and%20Wellness&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:53,101 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=%20(ca%3A%5B900%20TO%20909.999999%5D%20OR%20ca%3A%5B930%20TO%20999.999999%5D)%20isolanguage%3A%22eng%22%20audience%3A%22adult%22%20contentclass%3A%22NONFICTION%22%20formatcode%3A(BK%20)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20in%20History&_gl=1*wnrnb5*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0MzgyMzQkbzkkZzEkdDE3NjI0Mzg2MTYkajU5JGwwJGgw
+2026-08-10 14:56:54,043 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=(formatcode%3A(BLURAY%20)%20OR%20collection%3A%22DVDs%22)%20(audience%3A%22adult%22%20OR%20audience%3A%22teen%22)%20oo%3A%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&sort=newly_acquired&title=New%20Adult%20DVDs%20and%20Blu-rays
+2026-08-10 14:56:54,043 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=isolanguage:%22eng%22+audience:%22children%22+formatcode:%28DVD+%29+oo:%22false%22&searchType=bl&suppress=true&f_NEWLY_ACQUIRED=PAST_180_DAYS&sort=newly_acquired&title=New+Children%27s+DVDs&_gl=1*5ivigp*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0NDA2NDEkbzEwJGcxJHQxNzYyNDQwNjUzJGo0OCRsMCRoMA..
+2026-08-10 14:56:55,266 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=true&query=pubyear:%5B2024+TO+2026%5D+%28audience:%22adult%22+OR+audience:%22teen%22%29+formatcode:%28MUSIC_CD+%29+oo:%22false%22&searchType=bl&suppress=true&sort=newly_acquired&f_NEWLY_ACQUIRED=PAST_180_DAYS&f_CIRC=CIRC&page=1&title=New+Music+CDs&_gl=1*1xxpzcx*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0NDA2NDEkbzEwJGcxJHQxNzYyNDQwNjk4JGozJGwwJGgw
+2026-08-10 14:56:56,621 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/search?origin=header-navigation&custom_edit=false&query=formatcode%3A(CS%20OR%20BOOK_CD%20OR%20BK%20OR%20BOOK_PAUDIO%20OR%20BOOK_PCD%20OR%20DAISY%20OR%20DVD%20OR%20EASY_READER%20OR%20EAUDIOBOOK%20OR%20EBOOK%20OR%20FILM%20OR%20GRAPHIC_NOVEL%20OR%20KIT%20OR%20LPRINT%20OR%20MAG%20OR%20MUSIC_CD%20OR%20NEWSPAPER%20OR%20EJ%20OR%20ONLINE_LEARNING%20OR%20MAG_ONLINE%20OR%20NEWSPAPER_ONLINE%20OR%20PICTURE_BOOK%20OR%20PLAYAWAY_AUDIOBOOK%20OR%20MUSIC_ONLINE%20OR%20VIDEO_ONLINE%20)&searchType=bl&suppress=true&sort=newly_acquired&f_PRIMARY_LANGUAGE=chi&title=Chinese%20%7C%20%E7%AE%80%E5%8C%96%E5%AD%97%20%7C%20%E7%B9%81%E9%AB%94%E5%AD%97&_gl=1*1xzwhqv*_ga*OTUwODI4MTk0LjE3NjE4MzIzMTY.*_ga_G99DMMNG39*czE3NjI0NDA2NDEkbzEwJGcxJHQxNzYyNDQwNjk4JGozJGwwJGgw
+2026-08-10 14:57:02,134 | INFO | Access denied (403): https://apps.tpl.ca/branch-computer/databases
+2026-08-10 14:57:06,077 | INFO | Access denied (403): https://digitalarchive.tpl.ca/
+2026-08-10 14:57:09,277 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?types=67dda27a4225953e001581ca%2C6a392ed516554cd59fca6ce8
+2026-08-10 14:57:09,277 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?types=68b050d1023ff32800756704
+2026-08-10 14:57:09,966 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?types=688ba8c6faa427ea055e2d6e
+2026-08-10 14:57:09,966 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?types=68b050bb101e8736007ad706
+2026-08-10 14:57:09,966 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?types=688ba8edfaa427ea055e2d6f
+2026-08-10 14:57:09,966 | INFO | Skipping external URL: https://tpl.bibliocommons.com/v2/events?q=newcomer
+2026-08-10 14:57:32,254 | INFO | Skipping external URL: https://tplfoundation.ca/
+2026-08-10 14:57:33,163 | INFO | Skipping external URL: https://gateway.bibliocommons.com/v2/libraries/tpl/rss/search?query=%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C%E3%85%8C&searchType=smart&_gl=1%2At4hovk%2A_ga%2AOTIzMTA3NDYyLjE3ODYzODgyMDA.%2A_ga_G99DMMNG39%2AczE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgxOTkkajYwJGwwJGgw%2A_ga_VGX2640F9T%2AczE3ODYzODgxOTkkbzEkZzAkdDE3ODYzODgyMDEkajU4JGwwJGgw&origin=user-query&view=grouped
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocms.com/help/basic-searching/
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocms.com/resource/britannica-library/
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocms.com/resource/canada-in-context/
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocms.com/resource/mango-languages/
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocms.com/resource/
+2026-08-10 14:57:33,164 | INFO | Skipping external URL: https://tpl.bibliocommons.com/suggested_purchases
+2026-08-10 14:57:33,854 | INFO | Skipping external URL: https://www.facebook.com/torontopubliclibrary/
+2026-08-10 14:57:33,854 | INFO | Skipping external URL: https://twitter.com/torontolibrary?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+2026-08-10 14:57:33,854 | INFO | Skipping external URL: https://www.instagram.com/torontolibrary/?hl=en
+2026-08-10 14:57:33,854 | INFO | Skipping external URL: https://www.youtube.com/torontopubliclibrary
+2026-08-10 14:57:33,854 | INFO | Skipping external URL: https://ca.linkedin.com/company/torontolibrary
+2026-08-10 14:57:46,289 | INFO | Skipping external URL: https://tplfoundation.ca/?utm_source=TPL%20Website&utm_medium=web%20link&utm_campaign=Donate%20Now&utm_content=site%20footer
+2026-08-10 14:57:54,623 | INFO | Skipping external URL: http://tpl.bibliocommons.com/info/terms
+2026-08-10 14:57:54,624 | INFO | Skipping external URL: http://tpl.bibliocommons.com/info/privacy
+2026-08-10 14:57:54,624 | INFO | Skipping external URL: https://tpl.bibliocommons.com/info/accessibility/
+2026-08-10 14:57:54,624 | INFO | Broken links found: 0
+2026-08-10 14:57:54,626 | INFO | ✅ Broken Link Test PASSED
+2026-08-10 14:57:54,626 | INFO | ===== Accessibility Test =====
+2026-08-10 14:57:54,626 | INFO | ========== Accessibility Test ==========
+2026-08-10 14:57:55,315 | INFO | Accessibility Violations: 6
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : heading-order
+        Impact   : moderate
+        Help     : Heading levels should only increase by one
+        Affected : 2
+        
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : landmark-contentinfo-is-top-level
+        Impact   : moderate
+        Help     : Contentinfo landmark should not be contained in another landmark
+        Affected : 1
+        
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : landmark-no-duplicate-contentinfo
+        Impact   : moderate
+        Help     : Document should not have more than one contentinfo landmark
+        Affected : 1
+        
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : landmark-unique
+        Impact   : moderate
+        Help     : Landmarks should have a unique role or role/label/title (i.e. accessible name) combination
+        Affected : 1
+        
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : listitem
+        Impact   : serious
+        Help     : <li> elements must be contained in a <ul> or <ol>
+        Affected : 6
+        
+2026-08-10 14:57:55,315 | WARNING | 
+        Rule     : region
+        Impact   : moderate
+        Help     : All page content should be contained by landmarks
+        Affected : 1
+        
+2026-08-10 14:57:55,315 | INFO | ✅ Accessibility Test Finished
+2026-08-10 14:57:55,316 | INFO | ✅ Accessibility Test PASSED
+2026-08-10 14:57:55,449 | INFO | ===== TestPilot Finished =====
+2026-08-10 14:57:55,449 | INFO | Execution Time : 78.23 sec
+2026-08-10 14:57:55,449 | INFO | ========== Summary ==========
+2026-08-10 14:57:55,449 | INFO | Homepage Test             PASSED
+2026-08-10 14:57:55,449 | INFO | Search Test               PASSED
+2026-08-10 14:57:55,449 | INFO | Broken Link Test          PASSED
+2026-08-10 14:57:55,450 | INFO | Accessibility Test        PASSED
