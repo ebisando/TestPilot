@@ -7,6 +7,8 @@ from tests.homepage_test import run as homepage_test
 from tests.search_positive_test import run as search_test
 
 from core.logger import logger
+import core.test_result
+from core.report import ReportGenerator
 
 
 class TestRunner:
@@ -42,21 +44,20 @@ class TestRunner:
                 test(self.driver)
 
                 logger.info(f"✅ {test_name} PASSED")
-                self.results.append({
-                    "name": test_name,
-                    "status": "PASSED",
-                    "error": None
-                })
+                self.results.append(core.test_result.TestResult(
+                    name=test_name,
+                    status="PASSED"
+                ))
 
             except Exception as e:
 
                 logger.error(f"❌ {test_name} FAILED")
                 traceback.print_exc()
-                self.results.append({
-                    "name": test_name,
-                    "status": "FAILED",
-                    "error": str(e)
-                })
+                self.results.append(core.test_result.TestResult(
+                    name=test_name,
+                    status="FAILED",
+                    error=str(e)
+                ))
 
     def teardown(self):
 
@@ -86,11 +87,16 @@ class TestRunner:
         logger.info("========== Summary ==========")
         for result in self.results:
 
-            if result["error"]:
+            if result.error:
                 logger.info(
-                    f"{result['name']:<25} {result['status']} ({result['error']})"
+                    f"{result.name:<25} {result.status} ({result.error})"
                 )
             else:
                 logger.info(
-                    f"{result['name']:<25} {result['status']}"
+                    f"{result.name:<25} {result.status}"
                 )
+                if result.error:
+                    logger.info(f"    Error: {result.error}")
+        ReportGenerator().generate(
+            self.results
+        )            
