@@ -2,7 +2,7 @@ website:
   url: "https://www.tpl.ca"
 
 browser:
-  headless: false
+  headless: true
 
 test:
   search_keyword : "ㅌㅌㅌㅌㅌㅌㅌ"

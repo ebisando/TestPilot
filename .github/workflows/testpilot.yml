@@ -26,5 +26,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Check Chrome Installation
+        run: |
+          which google-chrome || true
+          google-chrome --version || true
+          which chromedriver || true
+          chromedriver --version || true
+
+      - name: Check Selenium
+        run: |
+          python -c "from selenium import webdriver; print(webdriver.__version__)"
+          
       - name: Run TestPilot
         run: python main.py
