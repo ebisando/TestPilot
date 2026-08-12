@@ -11,6 +11,8 @@ from core.logger import logger
 import core.test_result
 from core.report import ReportGenerator
 from tests.accessibility_test import run as accessibility_test
+from tests.performance_test import run as performance_test
+
 
 class TestRunner:
 
@@ -22,7 +24,8 @@ class TestRunner:
             ("Homepage Test", homepage_test),
             ("Search Test", search_test),
             ("Broken Link Test", broken_link_test),
-            ("Accessibility Test", accessibility_test)
+            ("Accessibility Test", accessibility_test),
+            ("Performance Test", performance_test)
         ]
         self.results = []
 
