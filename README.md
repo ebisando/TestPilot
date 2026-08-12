@@ -180,33 +180,7 @@ GitHub Actions automatically:
 
 ---
 ## Framework Architecture
-          +----------------+
-          |    main.py     |
-          +-------+--------+
-                  |
-                  v
-          +----------------+
-          |  Test Runner   |
-          +-------+--------+
-                  |
-     +------------+------------+
-     |            |            |
-     v            v            v
- Homepage     Search     Broken Link
-     |            |            |
-     +------------+------------+
-                  |
-                  v
-        Accessibility Test
-                  |
-                  v
-        Performance Test
-                  |
-                  v
-      HTML Report + Logger
-                  |
-                  v
-        GitHub Actions CI
+<img width="275" height="549" alt="image" src="https://github.com/user-attachments/assets/7922b54f-e755-4d92-835f-66f14fd11fdf" />
         
 ## HTML Report
 <img width="1018" height="528" alt="image" src="https://github.com/user-attachments/assets/60a6ece4-c132-44bc-a1b9-5ee7fa6521a3" />
